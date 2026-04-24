@@ -272,6 +272,18 @@ section {
     font-weight: 600;
     margin-bottom: 3rem;
 }
+.subsection-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, rgb(255,0,255), rgb(0,157,255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.projects .project-grid + .subsection-title {
+    margin-top: 4rem;
+}
 
 /* ── Experience ── */
 .experience-info {
